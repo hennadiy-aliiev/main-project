@@ -11,7 +11,7 @@ body {
     font-family: Arial;
     box-sizing: border-box;
 }
-img {
+div.about img {
     width: 100%;
 }
 .home {
@@ -53,7 +53,12 @@ li a {
     background-size: cover;
     background-attachment: fixed;
 }
-
+li {
+    display: inline;
+}
+li a img {
+    width: 40px;
+}
 @media screen and (min-width: 960px) {
     .nav {
         position: fixed;
