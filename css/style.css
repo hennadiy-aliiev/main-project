@@ -5,11 +5,13 @@
 .home, .about, .skills, .feedback, .contacts {
     max-width: 100%;
     max-height: 100%;
-    backgrond-color: rd;
 }
 
 h1 {
     text-align: center;
+}
+.home {
+    position: fixed;
 }
 
 
