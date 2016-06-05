@@ -36,9 +36,11 @@ li a {
 }
 .button1 {
     position: absolute;
+    display: block;
 }
 .button2 {
     position: absolute;
+    display: block;
 }
 .home a {
     text-decoration: none;
