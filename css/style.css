@@ -11,22 +11,13 @@ body {
     font-family: Arial;
     box-sizing: border-box;
 }
-div.about img {
-    width: 100%;
-}
-.home {
-    height: 900px;
-    background-image: url("/images/adaptiveimage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 h1 {
     text-align: center;
 }
 .nav {
     position: fixed;
     right: 0;
+    z-index: 1;
 }
 
 li a {
@@ -35,6 +26,31 @@ li a {
     color: silver;
     text-decoration: none;
 }
+.home {
+    height: 900px;
+    background-image: url("/images/adaptiveimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.button1 {
+    position: absolute;
+}
+.button2 {
+    position: absolute;
+}
+.home a {
+    text-decoration: none;
+}
+
+
+.about img {
+    width: 100%;
+}
+
+
+
 
 .skills {
     height: 900px;
@@ -70,6 +86,7 @@ div.logo {
 }
 .logo img {
     width: 40px;
+    padding: 5px;
 }
 
 

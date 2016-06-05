@@ -30,8 +30,8 @@
         </div>
         
         <div class="home">
-            <div><a href="">ORDER WEBSITE</a></div>
-            <div><a href="">LEAVE FEEDBACK</a></div>
+            <div class="button1"><a href="">ORDER WEBSITE</a></div>
+            <div class="button2"><a href="">LEAVE FEEDBACK</a></div>
         </div>
         
         <div class="about" id="ab">
@@ -73,6 +73,11 @@
         
         <div class="feedback" id="feed">
             <h1>Feedback</h1>
+            <form>
+                <label for="feedback">Leave a feedback:</label><br>
+                <textarea type="textarea" id="feedback" name="feedback" rows="5"></textarea><br>
+                <input type="submit" value="leave a feedback">
+            </form>
         </div>
         
         <div class="contacts" id="cont">
@@ -85,7 +90,8 @@
                 <label for="number">Phone number:</label><br>
                 <input type="tel" id="number" name="tel"><br>
                 <label for="comment">Comment:</label><br>
-                <input type="text" id="comment" name="comment"><br><br>
+                <textarea name="comment" type="text" id="comment" rows="5" placeholder="write your comment..."></textarea>
+                <br><br>
                 <input type="submit" value="Order website">
             </form>
             <div class="logo">
