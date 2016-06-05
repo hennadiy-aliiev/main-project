@@ -6,11 +6,10 @@
 }
 
 .about, .skills, .feedback, .contacts {
-    padding-top: 60px;
 }
 .home {
     height: 700px;
-    background-image: url("/images/homeimage.jpg");
+    background-image: url("/images/homeimage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -35,10 +34,10 @@ li a {
 }
 .contacts {
     height: 700px;
-    background-image: url("/images/feedbackimage.jpg");
+    background-image: url("/images/contactsimage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachmnt: fixed;
-
+}
 
 
