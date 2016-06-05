@@ -1,24 +1,32 @@
-{
+ {
     border: 1px solid black;
 }
 
 .home, .about, .skills, .feedback, .contacts {
 }
-
+.nav {
+    background-image: url("/images/map.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
 h1 {
     text-align: center;
 }
 .nav {
     position: fixed;
-    width: 100%;
+    right: 20px;
 }
 nav li {
     display: inline;
+    padding-right: 60px;
 }
 li a {
     text-decoration: none;
     text-align: right;
 }
+
 
 
 
