@@ -43,6 +43,9 @@ li a {
     background-size: cover;
     background-attachment: fixed;
 }
+div.feature div {
+    width: 100px;
+}
 
 
 
@@ -64,6 +67,9 @@ li a img {
         position: fixed;
         right: 30px;
         top: 50px;
+}
+nav:hov {
+    font-size:120%;
 }
     nav li {
         display: inline;
