@@ -66,6 +66,7 @@ li {
 }
 div.logo {
     margin:auto;
+    text-align: center;
 }
 .logo img {
     width: 40px;
