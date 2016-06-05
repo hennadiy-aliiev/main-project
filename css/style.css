@@ -1,14 +1,21 @@
  {
     border: 1px solid black;
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
 * {
     font-family: Arial;
+    box-sizing: border-box;
 }
-
-.about, .skills, .feedback, .contacts {
+img {
+    width: 100%;
 }
 .home {
-    height: 700px;
+    height: 900px;
     background-image: url("/images/homeimage2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,27 +26,68 @@ h1 {
 }
 .nav {
     position: fixed;
-    right: 30px;
-    top: 50px;
-}
-nav li {
-    display: inline;
-    padding-right: 60px;
-}
-li a {
-    text-decoration: none;
-    text-align: right;
-    font-weight: bold;
-    color: yellow;
-}
-.contacts {
-    height: 700px;
-    background-image: url("/images/contactsimage2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachmnt: fixed;
+    right: 0;
 }
 
-@media screen and (max-width: 960px) {}
-@media screen and (max-width: 480px) {}
+li a {
+    font-weight: bold;
+    font-size: 30px;
+    color: yellow;
+    text-decoration: none;
+}
+
+.skills {
+    height: 900px;
+    background-image: url("/images/adaptiveimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.contacts {
+    height: 500px;
+    background-image: url("/images/footerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 960px) {
+    .nav {
+        position: fixed;
+        right: 30px;
+        top: 50px;
+}
+    nav li {
+        display: inline;
+        padding-right: 60px;
+}
+    li a {
+        text-decoration: none;
+        text-align: right;
+        font-weight: bold;
+        font-size: 30px;
+        color: yellow;
+}
+
+    .skills {
+        height: 900px;
+        background-image: url("/images/adaptiveimage.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+    .contacts {
+        height: 500px;
+        background-image: url("/images/footerimage.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+}
+@media screen and (min-width: 480px) {
+    
+}
 
