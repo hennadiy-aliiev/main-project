@@ -1,4 +1,4 @@
-* {
+{
     border: 1px solid black;
 }
 
@@ -8,14 +8,16 @@
 h1 {
     text-align: center;
 }
-.home {
+.nav {
     position: fixed;
+    width: 100%;
 }
-div nav {
-    max-width: 100%;
-}
-nav li{
+nav li {
     display: inline;
+}
+li a {
+    text-decoration: none;
+    text-align: right;
 }
 
 
