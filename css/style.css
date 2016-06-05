@@ -1,22 +1,27 @@
  {
     border: 1px solid black;
 }
-
-.home, .about, .skills, .feedback, .contacts {
+* {
+    font-family: Arial;
 }
-.nav {
-    background-image: url("/images/map.png");
+
+.about, .skills, .feedback, .contacts {
+    padding-top: 60px;
+}
+.home {
+    height: 700px;
+    background-image: url("/images/homeimage.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
-    background-position: center;
 }
 h1 {
     text-align: center;
 }
 .nav {
     position: fixed;
-    right: 20px;
+    right: 30px;
+    top: 50px;
 }
 nav li {
     display: inline;
@@ -25,8 +30,15 @@ nav li {
 li a {
     text-decoration: none;
     text-align: right;
+    font-weight: bold;
+    color: yellow;
 }
-
+.contacts {
+    height: 700px;
+    background-image: url("/images/feedbackimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachmnt: fixed;
 
 
 
