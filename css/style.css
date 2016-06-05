@@ -16,7 +16,7 @@ div.about img {
 }
 .home {
     height: 900px;
-    background-image: url("/images/homeimage2.jpg");
+    background-image: url("/images/adaptiveimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -38,13 +38,18 @@ li a {
 
 .skills {
     height: 900px;
-    background-image: url("/images/adaptiveimage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    
 }
-div.feature div {
-    width: 100px;
+.featurepic {
+    width: 49%;
+    text-align: center;
+    display:inline-block;
+}
+.featurepic img {
+    width: 100%;
+}
+.feature > div {
+    padding: 5px;
 }
 
 
@@ -59,9 +64,14 @@ div.feature div {
 li {
     display: inline;
 }
-li a img {
+div.logo {
+    margin:auto;
+}
+.logo img {
     width: 40px;
 }
+
+
 @media screen and (min-width: 960px) {
     .nav {
         position: fixed;
