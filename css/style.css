@@ -37,10 +37,16 @@ li a {
 .button1 {
     position: absolute;
     display: block;
+    margin: 0 20% 0 20%;
+    bottom: 10px;
+    background-color: silver;
 }
 .button2 {
     position: absolute;
     display: block;
+    margin: 0 19% 0 19%;
+    bottom: 30px;
+    background-color: silver;
 }
 .home a {
     text-decoration: none;
