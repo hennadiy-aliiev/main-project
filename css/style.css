@@ -2,7 +2,6 @@
     border: 1px solid black;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -10,7 +9,11 @@ body {
 * {
     font-family: Arial;
     box-sizing: border-box;
+    color:silver;
 }
+
+
+
 h1 {
     text-align: center;
 }
@@ -20,12 +23,7 @@ h1 {
     z-index: 1;
 }
 
-li a {
-    font-weight: bold;
-    font-size: 30px;
-    color: silver;
-    text-decoration: none;
-}
+
 .home {
     height: 700px;
     background-image: url("/images/adaptiveimage.jpg");
@@ -70,13 +68,10 @@ li a {
     background-attachment: fixed;
     text-align: center;
 }
-.logo li {
-    display: inline;
-    text-decoration: none;
-}
+
 .logo img {
     width: 40px;
-    margin: 0 5px 0 5px;
+    margin: 80px 10px 10px 0;
 }
 
 
