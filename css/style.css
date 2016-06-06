@@ -59,16 +59,9 @@ h1 {
     text-align: center;
 }
 
-/*FEEDBACK*/
-
-input, textarea {
-    width: 80%;
-    height: 40px;
-}
-
 /*CONTACTS*/
 .contacts {
-    height: 800px;
+    height: 700px;
     background-image: url("/images/footerimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +74,9 @@ input, textarea {
     background-color: black;
     padding: 20px 0 50px 0;
 }
-
+.logo {
+    background-color: black;
+}
 .logo img {
     width: 40px;
     margin: 40px 10px 10px 0;
