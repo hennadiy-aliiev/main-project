@@ -27,30 +27,14 @@ li a {
     text-decoration: none;
 }
 .home {
-    height: 900px;
+    height: 700px;
     background-image: url("/images/adaptiveimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
-.button1 {
-    position: absolute;
-    display: block;
-    margin: 0 20% 0 20%;
-    bottom: 10px;
-    background-color: silver;
-}
-.button2 {
-    position: absolute;
-    display: block;
-    margin: 0 19% 0 19%;
-    bottom: 30px;
-    background-color: silver;
-}
-.home a {
-    text-decoration: none;
-}
+
 
 
 .about img {
@@ -61,21 +45,21 @@ li a {
 
 
 .skills {
-    height: 900px;
+    height: 1300px;
     
 }
-.featurepic {
-    width: 49%;
-    text-align: center;
-    display:inline-block;
-}
+
 .featurepic img {
     width: 100%;
 }
 .feature > div {
-    padding: 5px;
+    padding: 0 50px 0 50px;
+    text-align: center;
 }
 
+.feedback {
+    text-align: center;
+}
 
 
 .contacts {
@@ -84,17 +68,15 @@ li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-li {
-    display: inline;
-}
-div.logo {
-    margin:auto;
     text-align: center;
+}
+.logo li {
+    display: inline;
+    text-decoration: none;
 }
 .logo img {
     width: 40px;
-    padding: 5px;
+    margin: 0 5px 0 5px;
 }
 
 
