@@ -60,11 +60,7 @@ h1 {
 }
 
 /*FEEDBACK*/
-.feedback {
-    text-align: center;
-    background-color: black;
-    padding: 20px 0 50px 0;
-}
+
 input, textarea {
     width: 80%;
     height: 40px;
@@ -72,7 +68,7 @@ input, textarea {
 
 /*CONTACTS*/
 .contacts {
-    height: 500px;
+    height: 800px;
     background-image: url("/images/footerimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,10 +76,15 @@ input, textarea {
     text-align: center;
     padding-top: 40px;
 }
+.feedback {
+    text-align: center;
+    background-color: black;
+    padding: 20px 0 50px 0;
+}
 
 .logo img {
     width: 40px;
-    margin: 70px 10px 10px 0;
+    margin: 40px 10px 10px 0;
 }
 
 
