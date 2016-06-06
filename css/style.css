@@ -20,9 +20,10 @@ h1 {
 }
 .nav li {
     list-style:none;
+    text-decoration: none;
 }
 
-
+/*HOME*/
 .home {
     height: 600px;
     background-image: url("/images/home3.jpg");
@@ -35,23 +36,109 @@ h1 {
 /*ABOUT*/
 .about {
     text-align: center;
-    padding: 30px;
+    background-color:#e6e6e6;
+    background-image:;
 }
 .about img {
-    width: 100%;
+    width: 80%;
+    height: auto;
 }
 
 
 /*TECHNOLOGIES*/
+.technologies {
+    text-align: center;
+    background-color:#e6e6e6;
+}
+.htmlcssjs {
+    background-image: url("/images/footerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.htmlcssjs img {
+    width: 80%;
+    height: auto;
+}
+
+.featurepic img {
+    width: 40%;
+    height: auto;
+}
+
+
+/*CONTACTS*/
+.contacts {
+    text-align: center;
+    padding-top: 40px;
+    background-color: #1a1a1a;
+}
+.order {
+    text-align: center;
+    background-image: url("/images/footerimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.logo img {
+    width: 40px;
+    
+}
+
+
+
+
+@media screen and (min-width: 960px) {
+h1 {
+    text-align: center;
+}
+.nav {
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+.nav li {
+    list-style:none;
+    text-decoration: none;
+}
+
+
+.home {
+    height: 1100px;
+    background-image: url("/images/home3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+
+/*ABOUT*/
+.about {
+    text-align: center;
+}
+.about img {
+    width: 80%;
+    height: auto;
+}
+
+
+/*TECHNOLOGIES*/
+.technologies {
+    text-align: center;
+}
 .technologies img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .feature {
     text-align: center;
 }
 .featurepic img {
-    width: 100%;
+    width: 40%;
+    height: auto;
 }
 
 
@@ -79,42 +166,6 @@ h1 {
 
 
 
-
-@media screen and (min-width: 960px) {
-    .nav {
-        position: fixed;
-        right: 30px;
-        top: 50px;
-}
-nav:hov {
-    font-size:120%;
-}
-    nav li {
-        display: inline;
-        padding-right: 60px;
-}
-    li a {
-        text-decoration: none;
-        text-align: right;
-        font-weight: bold;
-        font-size: 30px;
-        color: silver;
-}
-
-    .skills {
-        height: 900px;
-        background-image: url("/images/adaptiveimage.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-}
-    .contacts {
-        height: 500px;
-        background-image: url("/images/footerimage.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-}
 }
 @media screen and (min-width: 480px) {
     
