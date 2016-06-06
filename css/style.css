@@ -34,14 +34,16 @@ h1 {
 }
 
 
-
+/*ABOUT*/
+.about {
+    text-align: center;
+    padding: 30px;
+}
 .about img {
-    width: 100%;
+    width: 80%;
 }
 
-
-
-
+/*SKILLS*/
 .skills {
     height: 1300px;
     
@@ -55,11 +57,16 @@ h1 {
     text-align: center;
 }
 
+/*FEEDBACK*/
 .feedback {
     text-align: center;
 }
+input, textarea {
+    width: 80%;
+    height: 40px;
+}
 
-
+/*CONTACTS*/
 .contacts {
     height: 500px;
     background-image: url("/images/footerimage.jpg");
@@ -73,6 +80,8 @@ h1 {
     width: 40px;
     margin: 80px 10px 10px 0;
 }
+
+
 
 
 @media screen and (min-width: 960px) {
