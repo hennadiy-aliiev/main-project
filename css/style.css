@@ -20,8 +20,9 @@ body {
 
 /*HOME*/
 .home {
-    height: 1000px;
-    background-color: red;
+    height: 580px;
+    position: relative;
+    background-image: url("/images/home3.jpg");
 }
 .absol {
     position: absolute;
