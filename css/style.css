@@ -21,7 +21,12 @@ body {
 /*HOME*/
 .home {
     height: 580px;
+    position: relative;
     background-image: url("/images/home3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
 }
 .absol {
     position: absolute;
@@ -94,10 +99,6 @@ span {
     background-color:#e6e6e6;
 }
 .htmlcssjs {
-    background-image: url("/images/footerimage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     text-align: center;
 }
 .htmlcssjs img {
@@ -113,12 +114,9 @@ span {
 .contacts {
     text-align: center;
     padding-top: 40px;
-    background-color: #1a1a1a;
 }
 .order {
     text-align: center;
-    background-image: url("/images/footerimage.jpg");
-    
 }
 .logo img {
     width: 40px;
