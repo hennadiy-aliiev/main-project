@@ -19,11 +19,9 @@ body {
 }
 
 /*HOME*/
-div.home {
-    position: relative;
-}
 .home {
     height: 580px;
+    position: relative;
     background-image: url("/images/home3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,10 +123,7 @@ span {
 .order {
     text-align: center;
     background-image: url("/images/footerimage.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
+    
 }
 .logo img {
     width: 40px;
