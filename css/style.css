@@ -21,7 +21,6 @@ body {
 /*HOME*/
 .home {
     height: 580px;
-    position: relative;
     background-image: url("/images/home3.jpg");
 }
 .absol {
