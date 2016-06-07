@@ -96,11 +96,8 @@ span {
 
 /*TECHNOLOGIES*/
 .technologies div {
-    text-align: left;
-    background-color:#e6e6e6;
-}
-.htmlcssjs {
     text-align: center;
+    background-color:#e6e6e6;
 }
 .htmlcssjs img {
     width: 80%;
@@ -110,8 +107,10 @@ span {
     width: 70%;
     height: auto;
 }
-.featurepic {
+.featurepic div {
     font-size: 30px;
+    color: #4d1a00;
+    text-decoration: underline;
 }
 
 /*CONTACTS*/
@@ -136,9 +135,6 @@ span {
     text-align: center;
     width: 95%;
     margin: 10% auto;
-}
-.logotext {
-    color: #4d1a00;
 }
 .logo img {
     width: 50px;
