@@ -3,16 +3,13 @@ body {
     padding: 0;
 }
 * {
-    font-family: Arial;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     box-sizing: border-box;
-    color:silver;
+    color: #999999;
+    text-decoration: none;
 }
 
 
-
-h1 {
-    text-align: center;
-}
 .nav {
     position: fixed;
     right: 0;
@@ -20,7 +17,6 @@ h1 {
 }
 .nav li {
     list-style:none;
-    text-decoration: none;
 }
 
 /*HOME*/
@@ -30,14 +26,35 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    text-align: center;
+    padding-top: 50px;
 }
+.divbutton1 {
+    border: 3px solid silver;
+    width: 95%;
+    margin: 10px auto;
+    display: block;
+}
+.divbutton1 a {
+    display: block;
+    padding: 10px;
+}
+.divbutton2 {
+    border: 3px solid silver;
+    width: 95%;
+    margin: auto;
+}
+.divbutton2 a {
+    display: block;
+    padding: 10px;
+}
+
 
 
 /*ABOUT*/
 .about {
     text-align: center;
     background-color:#e6e6e6;
-    background-image:;
 }
 .about img {
     width: 80%;
