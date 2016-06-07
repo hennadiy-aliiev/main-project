@@ -20,19 +20,38 @@ body {
 }
 
 /*HOME*/
+div.home {
+    position: relative;
+}
 .home {
-    height: 600px;
+    height: 580px;
     background-image: url("/images/home3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35%;
+}
+.name div {
+    color: #4d1a00;
+}
+.for {
+    text-align: left;
+    margin-left: 20%;
+    border-left: 2px solid #4d1a00;
+    padding-left: 2%;
+}
+span {
+    color: #4d1a00;
 }
 .divbutton1 {
-    border: 3px solid silver;
+    position: absolute;
     width: 95%;
-    margin: 10px auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 15%;
+    border: 3px solid #4d1a00;
     display: block;
 }
 .divbutton1 a {
@@ -40,9 +59,14 @@ body {
     padding: 10px;
 }
 .divbutton2 {
-    border: 3px solid silver;
+    position: absolute;
     width: 95%;
+    left: 0;
+    right: 0;
     margin: auto;
+    bottom: 5%;
+    border: 3px solid #4d1a00;
+    display: block;
 }
 .divbutton2 a {
     display: block;
@@ -101,7 +125,6 @@ body {
 }
 .logo img {
     width: 40px;
-    
 }
 
 
