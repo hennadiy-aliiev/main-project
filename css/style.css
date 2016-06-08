@@ -112,6 +112,9 @@ span {
     color: #4d1a00;
     text-decoration: underline;
 }
+svg {
+  fill: currentColor;
+}
 
 /*CONTACTS*/
 .contacts {
@@ -162,9 +165,10 @@ textarea {
     background-color: transparent;
     border: 3px solid #4d1a00;
 }
-.feedback textarea {
-    width: 95%;
+textarea:focus, input:focus{
+    outline: none;
 }
+
 
 
 
