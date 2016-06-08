@@ -85,7 +85,7 @@ span {
 /*ABOUT*/
 .about {
     text-align: center;
-    background-color:#e6e6e6;
+    backgrounolor:#e6e6e6;                    /*background-color*/
 }
 .about img {
     width: 100%;
@@ -97,7 +97,7 @@ span {
 /*TECHNOLOGIES*/
 .technologies div {
     text-align: center;
-    background-color:#e6e6e6;
+    backgrounlor:#e6e6e6;                       /*background-color*/
 }
 .htmlcssjs img {
     width: 80%;
@@ -118,7 +118,7 @@ span {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 40px;
-    background-image: url("../images/footerimage.jpg");
+    background-image: url("../images/");               /*background-image*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -129,7 +129,8 @@ span {
     border: 3px solid #4d1a00;
     width: 95%;
     margin: 10% auto;
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.1);
+    
 }
 .feedback {
     text-align: center;
