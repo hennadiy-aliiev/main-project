@@ -87,6 +87,8 @@ span {
 .about {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     backgrounolor:#e6e6e6;                    
 }
