@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
 }
 * {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -107,29 +108,29 @@ span {
 }
 .fundamentals {
     text-align: center;
-    background-coor: #bfbfbf;
+    background-color: #e6e6e6;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 } 
 .whatyou {
     font-size: 35px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 30px;                     
+    padding-bottom: 20px;                     
     background-image: url("../images/contactsbackgr.jpg");               /*background-image*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
+    margin: 0;
 }
-.feature {
-    padding-top: 40px;
-}
+
 .featurepic img {
     width: 70%;
     height: auto;
 }
 .featurepic {
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 h1, p.desc {
     color: #4d1a00;
@@ -143,7 +144,7 @@ h1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 5px;
-    background-image: url("../images/contactsbackgr.jpg");               /*background-image*/
+    background-image: url("../images/contactsbackgr.jpg");              
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -158,7 +159,6 @@ h1 {
     width: 95%;
     margin: 10% auto;
     background-color: rgba(255,255,255,0.3);
-    
 }
 .feedback {
     text-align: center;
