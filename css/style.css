@@ -34,7 +34,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    bottom: 35%;
+    bottom: 32%;
     font-size: 30px;
 }
 .name div {
@@ -112,8 +112,8 @@ span {
     color: #4d1a00;
     text-decoration: underline;
 }
-svg {
-  fill: currentColor;
+.kiwi {
+  fill: #94d31b; 
 }
 
 /*CONTACTS*/
