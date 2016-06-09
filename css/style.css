@@ -84,9 +84,10 @@ span {
 
 /*ABOUT*/
 .about {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     backgrounolor:#e6e6e6;                    /*background-color*/
-    padding-bottom: 30px;
 }
 .about img {
     width: 100%;
@@ -98,7 +99,7 @@ span {
 /*TECHNOLOGIES*/
 .technologies div {
     text-align: center;
-    padding-bottom: 30px;      /*background-color*/
+    padding-bottom: 20px;      /*background-color*/
 }
 .htmlcssjs img {
     width: 80%;
@@ -106,8 +107,6 @@ span {
 }
 .htmlcssjs {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 40px;
     background-image: url("../images/htmlbackgr.jpg");               /*background-image*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,14 +123,13 @@ span {
 .featurepic div {
     font-size: 30px;
     color: #4d1a00;
-    text-decoration: underline;
 }
 
 /*CONTACTS*/
 .contacts {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 5px;
     background-image: url("../images/contactsbackgr.jpg");               /*background-image*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,11 +155,13 @@ span {
     border-top: 3px solid white; 
 }
 .logo {
-    border-top: 3px solid white; 
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .logo img {
     width: 50px;
-    margin: 30px 2px 20px 2px;
+    margin: 30px 8px 20px 8px;
 }
 input {
     width: 95%;
