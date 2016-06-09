@@ -94,10 +94,7 @@ h1.firsth1 {
     border-radius: 100px;
 }
 .about {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 30px 30px 20px 20px;
     text-align: center;
 }
 .about img {
