@@ -217,9 +217,29 @@ textarea:focus, input:focus{
 
 
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 960px) {}
 
 @media screen and (min-width: 480px) {
     
 }
 
+
+/*  ----  */
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("../images/home3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    overflow: auto;
+}
+
+.home {
+    background: none !important;
+}
