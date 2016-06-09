@@ -131,7 +131,7 @@ span {
 .featurepic {
     padding-bottom: 40px;
 }
-h1, p {
+h1, p.desc {
     color: #4d1a00;
 }
 h1 {
@@ -174,7 +174,10 @@ h1 {
 }
 .logo img {
     width: 50px;
-    margin: 30px 8px 20px 8px;
+    margin: 30px 8px 0px 8px;
+}
+.logotext {
+    color: #4d1a00;
 }
 input {
     width: 95%;
