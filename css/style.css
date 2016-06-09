@@ -84,6 +84,9 @@ span {
 }
 
 /*ABOUT*/
+h1.firsth1 {
+    color: #4d1a00;
+}
 .about {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -134,10 +137,10 @@ span {
     padding-bottom: 40px;
     padding-top: 40px;
 }
-h1, p.desc {
+h1.secondh1, p.desc {
     color: #4d1a00;
 }
-h1 {
+h1.secondh1 {
     text-decoration: underline;
 }
 
