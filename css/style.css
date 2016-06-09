@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     color: #999999;
     text-decoration: none;
+    boder: 1px solid black;                      /*USING ALL BORDERS*/
 }
 
 .nav {
@@ -86,6 +87,15 @@ span {
 /*ABOUT*/
 h1.firsth1 {
     color: #4d1a00;
+}
+.mainfoto {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-image: url("../images/mainfoto.jpg");               /*background-image*/
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about {
     padding-top: 30px;
