@@ -105,16 +105,21 @@ span {
     width: 40%;
     height: auto;
 }
-.htmlcssjs {
+.fundamentals {
     text-align: center;
-    background-image: url("../images/4htmlbackgr.jpg");               /*background-image*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;;
+    background-coor: #bfbfbf;
+    padding-top: 40px;
+    padding-bottom: 40px;
 } 
 .whatyou {
     font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-image: url("../images/contactsbackgr.jpg");               /*background-image*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
 }
 .feature {
     padding-top: 40px;
@@ -142,11 +147,10 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    text-align: center;
-    
 }
 .pcont {
     font-size: 30px;
+    color: white;
 }
 .order {
     text-align: center;
