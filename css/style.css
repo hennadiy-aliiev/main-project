@@ -162,10 +162,6 @@ h1.secondh1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 5px;
-    background-image: url("../images/contactsbackgr.jpg");              
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 .pcont {
     font-size: 30px;
@@ -247,7 +243,7 @@ body {
     box-sizing: border-box;
     color: #bfbfbf;
     text-decoration: none;
-    border: 1px solid black;                      /*ALL BORDERS*/
+    order: 1px solid black;                      /*ALL BORDERS*/
 }
 
 .nav {
@@ -367,7 +363,7 @@ h1.firsth1 {
 /*TECHNOLOGIES*/
 .technologies {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 7%;
     background-color: #ffffff;
 }
 .fundamentals {
@@ -380,8 +376,8 @@ h1.firsth1 {
 }
 .whatyou {
     font-size: 35px;
-    padding-top: 30px;                     
-    padding-bottom: 20px;                     
+    padding-top: 3%;                     
+    padding-bottom: 2%;                     
     background-image: url("../images/contactsbackgr.jpg");               /*background-image*/
     background-repeat: no-repeat;
     background-size: cover;
@@ -393,14 +389,14 @@ h1.firsth1 {
     overflow: auto;
 }
 .featurepic {
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 7%;
+    padding-top: 6%;
     width: 20%;
     float: left;
     margin-left: 4%;
 }
 .featurepic img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 h1.secondh1, p.desc {
@@ -415,10 +411,7 @@ h1.secondh1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 5px;
-    background-image: url("../images/contactsbackgr.jpg");              
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    
 }
 .pcont {
     font-size: 30px;
