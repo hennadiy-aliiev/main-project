@@ -265,6 +265,7 @@ body {
 }
 .nav li a {
     color: #4d1a00;
+    font-weight: bold;
 }
 .nav li a:hover {
     text-decoration: underline;
@@ -331,24 +332,33 @@ span {
 }
 
 /*ABOUT*/
-h1.firsth1 {
-    color: #4d1a00;
-}
-.mainfotocut {
-    width: 50%;
-    margin: 0 auto;
-    border-radius: 10000px;
-}
 .about {
-    padding: 30px 20px 30px 20px;
+    padding: 30px 200px 30px 200px;
     text-align: center;
     background-color: #ffffff;
 }
-.mainothers {
-    width: 100%;
-    height: auto;
+h1.firsth1 {
+    color: #4d1a00;
+    margin-right: 30%;
+    font-size: 40px;
+    text-decoration: underline;
 }
-
+.clearfix {
+    overflow: auto;
+    margin-bottom: 2%;
+}
+.mainfotocut {
+    border-radius: 10000px;
+    float: left;
+}
+.about p {
+    font-size: 25px;
+    color: #595959;
+}
+.about img {
+    width: 25%;
+    margin: 0 1% 0 1%;
+}
 
 /*TECHNOLOGIES*/
 .technologies {
