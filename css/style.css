@@ -1,15 +1,24 @@
+html {
+    height: 100%;
+}
 body {
+    height: 100%;
+    background-image: url("../images/home3.jpg");
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-attachment: fixed;
+    overflow: auto;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
 }
 * {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     box-sizing: border-box;
-    color: #999999;
+    color: #bfbfbf;
     text-decoration: none;
     boder: 1px solid black;                      /*USING ALL BORDERS*/
 }
+
 
 .nav {
     position: fixed;
@@ -24,10 +33,6 @@ body {
 .home {
     height: 580px;
     position: relative;
-    background-image: url("../images/home3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     text-align: center;
 }
 .absol {
@@ -88,16 +93,17 @@ span {
 h1.firsth1 {
     color: #4d1a00;
 }
-.mainfoto {
-    
+.mainfotocut {
+    width: 50%;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 10000px;
 }
 .about {
-    padding: 30px 30px 20px 20px;
+    padding: 30px 20px 30px 20px;
     text-align: center;
+    background-color: #ffffff;
 }
-.about img {
+.mainothers {
     width: 100%;
     height: auto;
 }
@@ -106,7 +112,8 @@ h1.firsth1 {
 /*TECHNOLOGIES*/
 .technologies {
     text-align: center;
-    padding-bottom: 40px;      
+    padding-bottom: 40px;
+    background-color: #ffffff;
 }
 .fundamentals img {
     width: 40%;
@@ -114,7 +121,7 @@ h1.firsth1 {
 }
 .fundamentals {
     text-align: center;
-    background-color: #e6e6e6;
+    background-color: #f2f2f2;
     padding-top: 40px;
     padding-bottom: 100px;
 } 
@@ -177,6 +184,7 @@ h1.secondh1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: #ffffff;
 }
 .logo img {
     width: 50px;
@@ -226,20 +234,5 @@ textarea:focus, input:focus{
 
 /*  ----  */
 
-html {
-    height: 100%;
-}
 
-body {
-    height: 100%;
-    background-image: url("../images/home3.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    
-    overflow: auto;
-}
 
-.home {
-    background: none !important;
-}
