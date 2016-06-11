@@ -92,6 +92,11 @@ span {
 }
 
 /*ABOUT*/
+.about {
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
 h1.firsth1 {
     color: #4d1a00;
 }
@@ -100,10 +105,8 @@ h1.firsth1 {
     margin: 0 auto;
     border-radius: 10000px;
 }
-.about {
-    padding: 30px 20px 30px 20px;
-    text-align: center;
-    background-color: #ffffff;
+.about p {
+    color: #595959;
 }
 .mainothers {
     width: 100%;
