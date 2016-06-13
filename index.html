@@ -5,7 +5,6 @@
     <title>main project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     
@@ -17,7 +16,20 @@
     
     
     <div class="wrapper">
+       <div class="dropnav">
+            
+       <div class="dropdown">
+           <button onclick="myFunction()" class="dropbtn">&equiv;</button>
+           <div id="myDropdown" class="dropdown-content">
+                <a href="#ab">ABOUT</a>
+                <a href="#tech">TECHNOLOGIES</a>
+                <a href="#feed">FEEDBACK</a>
+                <a href="#cont">CONTACTS</a>
+            </div>
+        </div>
         
+        </div> 
+
         <div class="nav">
             <nav>
                 <ul>
@@ -137,10 +149,10 @@
             </div>
         </div>
         <div class="logo">
-            <img src="images/logofacebook.svg" alt="logofacebook">
-            <img src="images/logogoogle.svg" alt="logogoogle">
-            <img src="images/logoskype.svg" alt="logoskype">
-            <img src="images/logoshare.svg" alt="logoshare"><br>
+            
+            <a href="https://www.facebook.com/gennadiy.aliev.1" target="_blank"><img src="images/logofacebook.svg" alt="logofacebook"></a>
+            <a href="https://plus.google.com/u/0/108416854290997862687/posts" target="_blank"><img src="images/logogoogle.svg" alt="logogoogle"></a>
+            <a href="skype:crysis_71?chat"><img src="images/logoskype.svg" alt="logoskype"></a>
             <div>
                 <p class="logotext">&copy; 2016. Hennadii Aliiev. All Right Reserved</p>
             </div>
@@ -148,8 +160,7 @@
         
     </div>  <!-- END WRAPPER-->
     
-    
-    
+    <script src="script/script.js"></script>
     
 </body>
 </html>
