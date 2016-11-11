@@ -1,16 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>main project</title>
+	<meta charset="UTF-8">
+    <meta name="author" content="Hennadii Aliiev">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-   <!-- git checkout -b gh-pages 
-     git add . 
-     git commit -m "add new file"
-     git push origin gh-pages -->
     <div class="wrapper">
        <div class="dropnav">
        <div class="dropdown">
@@ -69,7 +68,7 @@
                I have graduated from Lviv Commerce Academy in Lviv, Ukraine.<br><br>
                Sometimes I was wondering how people creating web sites.
                In my opinion it was hard, so i have learned web fundamental programming base and from now on i can tell for sure - it's far from hard but of course not easy too.<br><br>
-               Why I want to create web sites? Because in addition to my skills, I want to create really amazing web pages.<br><br>
+               <br><br>
                </p>
             </div>
             <img class="mainothers" src="images/mainfoto1.jpg" alt="mainfoto1">
@@ -117,20 +116,20 @@
             </div>
         </div>
         <div class="contacts" id="cont">
-            <p class="pcont">CONTACT ME</p>
+            <p class="pcont">CONTACT ME</p>                                 
             <div class="order">
-                <form action="https://formspree.io/your@email.com" method="POST"><br>
-                    <input type="text" id="name" name="name" placeholder="Your Name:"><br>
-                    <input type="email" id="email" name="email" placeholder="E-mail:"><br>
-                    <input type="tel" id="number" name="tel" placeholder="Phone number:"><br>
-                    <textarea name="comment" type="text" id="comment" rows="5" placeholder="write your comment..."></textarea>
+                <form method="POST" action="php/form.php"><br>
+                    <input type="text" name="fname" placeholder="Your Name:*"><br>               <!--pattern="[A-Za-z ]" required-->
+                    <input type="email" name="femail" placeholder="E-mail:"><br>             <!--pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"-->
+                    <input type="tel" name="ftel" placeholder="Phone number:*"><br>            <!--pattern="[0-9]" maxlength="10" required-->
+                    <textarea type="text" name="fcomment" rows="5" placeholder="write your comment..."></textarea>
                     <br><br>
                     <input type="submit" class="submit" value="I WANT A WEB SITE">
                </form>
             </div>
             <div class="feedback" id="feed">
-                <form><br>
-                    <textarea type="textarea" id="feedback" name="feedback" rows="5" placeholder="leave a feedback..."></textarea><br>
+                <form method="POST" action=""><br>              <!--ADD FEEDBACK PAGE OR FRAME-->
+                    <textarea type="textarea" name="feedback" rows="5" placeholder="leave a feedback..."></textarea><br>          
                     <input type="submit" class="submit" value="LEAVE A FEEDBACK">
                 </form>
             </div>
@@ -140,10 +139,15 @@
             <a href="https://plus.google.com/u/0/108416854290997862687/posts" target="_blank"><img src="images/logogoogle.svg" alt="logogoogle"></a>
             <a href="skype:crysis_71?chat"><img src="images/logoskype.svg" alt="logoskype"></a>
             <div>
-                <p class="logotext">&copy; 2016. Hennadii Aliiev. All Right Reserved</p>
+                <p class="logotext">&copy; 2016. Hennadii Aliiev. All Right Reserved</p>   <!--&copy; 2016-<?php echo date("Y");?>-->
             </div>
         </div>
     </div>  <!-- END WRAPPER-->
     <script src="script/script.js"></script>
 </body>
 </html>
+
+   <!-- git checkout -b gh-pages 
+     git add . 
+     git commit -m "add new file"
+     git push origin gh-pages -->

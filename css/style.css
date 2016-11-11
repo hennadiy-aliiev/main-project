@@ -260,6 +260,7 @@ textarea {
     font-size: 25px;
     background-color: transparent;
     border: 2px solid #662200;
+	resize: none;
 }
 textarea:focus, input:focus{
     outline: none;
@@ -496,12 +497,14 @@ input.submit {
     border-radius: 7px;
     color: white;
     font-weight: bold;
+	cursor: pointer;
 }
 textarea {
     width: 85%;
     font-size: 25px;
     background-color: transparent;
     border: 3px solid #662200;
+	resize: none;
 }
 textarea:focus, input:focus{
     outline: none;
