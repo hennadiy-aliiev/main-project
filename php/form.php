@@ -6,7 +6,7 @@
 
 <?php
 
-require_once('../../../mysqli_connect.php');   // Connect to MySQL.   AMPP
+require_once('../../../mysqli_connect.php');   // Connect to MySQL.     AMPP
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $f_name = test_input($_POST['fname']);
@@ -23,12 +23,20 @@ function test_input($data) {
 }
 
 $query = "INSERT INTO form_table (FirstName, Email, Telephone, Comment) 
-VALUES ('$f_name', '$f_email', '$f_tel', '$f_comm')";
+VALUES (?, ?, ?, ?)";
 
-mysqli_query($conn, $query) or die('Error querying database.');
+$stmt = mysqli_prepare($conn, $query);                          // prepared statements
+        
+mysqli_stmt_bind_param($stmt, "ssis", $f_name, $f_email, $f_tel, $f_comm);
+        
+mysqli_stmt_execute($stmt);
 
-header('Location:/');
-exit;
+mysqli_stmt_close($stmt);
+
+mysqli_close($conn);
+
+// header('Location:/');
+// exit;
     
 ?>
 
